@@ -41,6 +41,7 @@ Extra=(
   sdkman-bin
   telegram-desktop
   topgrade
+  tldr
   ueberzugpp
   vdirsyncer
   wireguard-tools

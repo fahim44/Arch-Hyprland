@@ -49,6 +49,9 @@ eval "$(atuin init zsh)"
 # set-up bat alias to cat
 alias cat='bat'
 
+# set-up man alias to tldr
+alias man='tldr'
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
