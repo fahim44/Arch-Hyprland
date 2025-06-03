@@ -127,6 +127,7 @@ bluetooth="OFF"
 thunar="OFF"
 tmux="OFF"
 docker="OFF"
+dropbox="OFF"
 ags="OFF"
 sddm="OFF"
 sddm_theme="OFF"
@@ -266,6 +267,7 @@ options_command+=(
     "thunar" "Do you want Thunar file manager to be installed?" "OFF"
     "tmux" "Do you want Tmux to be installed?" "OFF"
     "docker" "Do you want Docker to be installed?" "OFF"
+    "dropbox" "Do you want Dropbox to be installed?" "OFF"
     "ags" "Install AGS v1 for Desktop-Like Overview" "OFF"
     "xdph" "Install XDG-DESKTOP-PORTAL-HYPRLAND (for screen share)?" "OFF"
     "zsh" "Install zsh shell with Oh-My-Zsh?" "OFF"
@@ -432,6 +434,10 @@ for option in "${options[@]}"; do
 		docker)
             echo "${INFO} Installing ${SKY_BLUE}Docker...${RESET}" | tee -a "$LOG"
             execute_script "docker.sh"
+            ;;
+		dropbox)
+            echo "${INFO} Installing ${SKY_BLUE}Dropbox...${RESET}" | tee -a "$LOG"
+            execute_script "dropbox.sh"
             ;;
         sddm_theme)
             echo "${INFO} Downloading & Installing ${SKY_BLUE}Additional SDDM theme...${RESET}" | tee -a "$LOG"

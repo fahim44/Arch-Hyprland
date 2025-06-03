@@ -13,24 +13,30 @@ Extra=(
   atuin
   bat
   betterbird-bin
+  bruno-bin
   calibre
   carapace-bin
   curl
+  dbeaver
   fd
   ffmpeg
   flameshot
   fluffychat-bin
   freetube-bin
   fzf
-  go
+  gimp
   git
+  go
+  httptoolkit
   lazygit
   libreoffice-fresh
   librewolf-bin
   keypunch-git
   khal
+  nextcloud-client
   numix-cursor-maia-git
   obs-studio
+  obsidian
   openssh
   papers
   poppler
@@ -38,8 +44,9 @@ Extra=(
   rustup
   sdkman-bin
   telegram-desktop
-  topgrade
   tldr
+  topgrade
+  transmission-gtk
   ueberzugpp
   vdirsyncer
   wireguard-tools

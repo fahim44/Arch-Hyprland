@@ -120,6 +120,7 @@ packages=(
     "thunar-volman" "Volume Management" "off"
     "tmux" "Terminal Multiplexer" "off"
     "docker" "Container Management" "off"
+    "dropbox" "Cloud Storage" "off"
     "tumbler" "Thumbnail Service" "off"
     "wallust" "color pallete generator" "off"
     "waybar" "wayland bar" "off"

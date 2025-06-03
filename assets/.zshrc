@@ -71,3 +71,19 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+
+# go path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:
+
+# cargo path
+export PATH=$PATH:$HOME/.cargo/bin
+
+# flatpak path
+export PATH=$PATH:/var/lib/flatpak/exports/bin
+
+# android-tools path
+export PATH=$PATH:$HOME/Android/Sdk/platform-tools
+
+# java home
+export JAVA_HOME=$HOME/.sdkman/candidates/java/current
