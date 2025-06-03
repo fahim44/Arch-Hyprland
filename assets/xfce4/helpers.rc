@@ -1,4 +1,4 @@
 FileManager=Thunar
-TerminalEmulator=kitty
-#WebBrowser=firefox
-#MailReader=evolution
+TerminalEmulator=alacritty
+WebBrowser=librewolf
+MailReader=betterbird

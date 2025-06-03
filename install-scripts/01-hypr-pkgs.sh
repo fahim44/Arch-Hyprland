@@ -8,11 +8,44 @@
 
 # add packages wanted here
 Extra=(
-
+  7zip
+  android-studio
+  atuin
+  bat
+  betterbird-bin
+  carapace-bin
+  curl
+  docker
+  docker-compose
+  fd
+  ffmpeg
+  fluffychat-bin
+  freetube-bin
+  fzf
+  go
+  git
+  lazygit
+  librewolf-bin
+  khal
+  numix-cursor-maia-git
+  obs-studio
+  openssh
+  poppler
+  ripgrep
+  rustup
+  sdkman-bin
+  telegram-desktop
+  ueberzugpp
+  vdirsyncer
+  wireguard-tools
+  yazi
+  zip
+  zoxide
 )
 
 hypr_package=( 
   #aylurs-gtk-shell
+  alacritty
   bc
   cliphist
   curl 
@@ -23,12 +56,11 @@ hypr_package=(
   imagemagick
   inxi 
   jq
-  kitty
   kvantum
   libspng
-  nano  
+  neovim
   network-manager-applet 
-  pamixer 
+  pamixer
   pavucontrol
   playerctl
   python-requests

@@ -125,6 +125,7 @@ execute_script() {
 gtk_themes="OFF"
 bluetooth="OFF"
 thunar="OFF"
+tmux="OFF"
 ags="OFF"
 sddm="OFF"
 sddm_theme="OFF"
@@ -262,6 +263,7 @@ options_command+=(
     "gtk_themes" "Install GTK themes (required for Dark/Light function)" "OFF"
     "bluetooth" "Do you want script to configure Bluetooth?" "OFF"
     "thunar" "Do you want Thunar file manager to be installed?" "OFF"
+    "tmux" "Do you want Tmux to be installed?" "OFF"
     "ags" "Install AGS v1 for Desktop-Like Overview" "OFF"
     "xdph" "Install XDG-DESKTOP-PORTAL-HYPRLAND (for screen share)?" "OFF"
     "zsh" "Install zsh shell with Oh-My-Zsh?" "OFF"
@@ -420,6 +422,10 @@ for option in "${options[@]}"; do
             echo "${INFO} Installing ${SKY_BLUE}Thunar file manager...${RESET}" | tee -a "$LOG"
             execute_script "thunar.sh"
             execute_script "thunar_default.sh"
+            ;;
+        tmux)
+            echo "${INFO} Installing ${SKY_BLUE}Tmux...${RESET}" | tee -a "$LOG"
+            execute_script "tmux.sh"
             ;;
         sddm_theme)
             echo "${INFO} Downloading & Installing ${SKY_BLUE}Additional SDDM theme...${RESET}" | tee -a "$LOG"
