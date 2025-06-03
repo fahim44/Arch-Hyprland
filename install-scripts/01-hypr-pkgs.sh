@@ -35,6 +35,7 @@ Extra=(
   khal
   nextcloud-client
   numix-cursor-maia-git
+  man
   obs-studio
   obsidian
   openssh
