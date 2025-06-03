@@ -13,6 +13,7 @@ Extra=(
   atuin
   bat
   betterbird-bin
+  calibre
   carapace-bin
   curl
   docker
@@ -25,12 +26,14 @@ Extra=(
   go
   git
   lazygit
+  libreoffice-fresh
   librewolf-bin
   keypunch-git
   khal
   numix-cursor-maia-git
   obs-studio
   openssh
+  papers
   poppler
   ripgrep
   rustup
@@ -40,6 +43,7 @@ Extra=(
   ueberzugpp
   vdirsyncer
   wireguard-tools
+  xournalpp
   yazi
   zip
   zoxide
