@@ -1,9 +1,5 @@
 #!/bin/bash
-# tmux #
-
-tmux_pkg=(
-	tmux
-)
+# numix-cursor-maia #
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -22,20 +18,12 @@ if ! source "$(dirname "$(readlink -f "$0")")/Global_functions.sh"; then
 fi
 
 # Set the name of the log file to include the current date and time
-LOG="Install-Logs/install-$(date +%d-%H%M%S)_tmux.log"
+LOG="Install-Logs/install-$(date +%d-%H%M%S)_cursor.log"
 
-# Installing core tmux packages
-printf "\n%s - Installing ${SKY_BLUE}tmux packages${RESET} .... \n" "${NOTE}"
-for TMUX in "${tmux_pkg[@]}"; do
-	install_package "$TMUX" "$LOG"
-done
+# create icons directory
+mkdir -p "$HOME/.icons/"
 
-# Check if ~/.tmux.conf exists, create a backup, and copy the new configuration
-if [ -f "$HOME/.tmux.conf" ]; then
-	cp -b "$HOME/.tmux.conf" "$HOME/.tmux.conf-backup" || true
-fi
-
-# Copying the preconfigured tmux configuration
-cp -r 'assets/.tmux.conf' "$HOME/"
+# Copying the cursor theme
+cp -vpfr 'assets/numix-cursor-maia' "$HOME/.icons/"
 
 printf "\n%.0s" {1..2}

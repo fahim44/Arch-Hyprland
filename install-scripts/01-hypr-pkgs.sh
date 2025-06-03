@@ -34,7 +34,6 @@ Extra=(
   keypunch-git
   khal
   nextcloud-client
-  numix-cursor-maia-git
   man
   obs-studio
   obsidian

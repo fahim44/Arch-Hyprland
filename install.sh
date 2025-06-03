@@ -371,6 +371,10 @@ echo "${INFO} Installing ${SKY_BLUE}necessary fonts...${RESET}" | tee -a "$LOG"
 sleep 1
 execute_script "fonts.sh"
 
+echo "${INFO} Installing ${SKY_BLUE}necessary cursor theme...${RESET}" | tee -a "$LOG"
+sleep 1
+execute_script "numix-cursor-maia.sh"
+
 echo "${INFO} Installing ${SKY_BLUE}Hyprland...${RESET}"
 sleep 1
 execute_script "hyprland.sh"
