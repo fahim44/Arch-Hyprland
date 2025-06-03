@@ -20,6 +20,7 @@ Extra=(
   docker-compose
   fd
   ffmpeg
+  flameshot
   fluffychat-bin
   freetube-bin
   fzf
