@@ -26,6 +26,7 @@ Extra=(
   git
   lazygit
   librewolf-bin
+  keypunch-git
   khal
   numix-cursor-maia-git
   obs-studio
