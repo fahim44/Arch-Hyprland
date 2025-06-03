@@ -16,8 +16,6 @@ Extra=(
   calibre
   carapace-bin
   curl
-  docker
-  docker-compose
   fd
   ffmpeg
   flameshot

@@ -21,6 +21,9 @@ thunar="ON"
 ###-Do you want to install Tmux?
 tmux="ON"
 
+###-Do you want to install Docker?
+docker="ON"
+
 ### Adding user to the 'input' group might be necessary for waybar keyboard-state functionality
 input_group="ON"
 
