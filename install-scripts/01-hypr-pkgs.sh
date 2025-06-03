@@ -35,6 +35,7 @@ Extra=(
   rustup
   sdkman-bin
   telegram-desktop
+  topgrade
   ueberzugpp
   vdirsyncer
   wireguard-tools
