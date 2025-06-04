@@ -40,6 +40,7 @@ Extra=(
   papers
   poppler
   python-pip
+  resolvconf
   ripgrep
   rustup
   sdkman-bin
