@@ -26,6 +26,7 @@ Extra=(
   fzf
   gimp
   go
+  httpie
   httptoolkit
   lazygit
   libreoffice-fresh
