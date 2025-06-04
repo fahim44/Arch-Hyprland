@@ -3,6 +3,7 @@
 
 git_pkg=(
 	git
+	git-lfs
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
@@ -37,5 +38,9 @@ fi
 
 # Copying the preconfigured git configuration
 cp -r 'assets/.gitconfig' "$HOME/"
+
+# setting up git-lfs
+printf "\n - Setting up git-lfs ... \n"
+git lfs install
 
 printf "\n%.0s" {1..2}
