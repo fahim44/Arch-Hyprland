@@ -25,7 +25,6 @@ Extra=(
   freetube-bin
   fzf
   gimp
-  git
   go
   httptoolkit
   lazygit
@@ -40,6 +39,7 @@ Extra=(
   openssh
   papers
   poppler
+  python-pip
   ripgrep
   rustup
   sdkman-bin

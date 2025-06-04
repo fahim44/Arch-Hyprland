@@ -359,6 +359,10 @@ fi
 sleep 1
 
 # Run the Hyprland related scripts
+echo "${INFO} Installing ${SKY_BLUE}Git packages...${RESET}" | tee -a "$LOG"
+sleep 1
+execute_script "git.sh"
+
 echo "${INFO} Installing ${SKY_BLUE}KooL Hyprland additional packages...${RESET}" | tee -a "$LOG"
 sleep 1
 execute_script "01-hypr-pkgs.sh"
