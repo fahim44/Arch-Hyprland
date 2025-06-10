@@ -20,7 +20,7 @@ Extra=(
   dbeaver
   fd
   ffmpeg
-  flameshot
+  flameshot-git
   fluffychat-bin
   freetube-bin
   fzf
