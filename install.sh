@@ -126,6 +126,7 @@ gtk_themes="OFF"
 bluetooth="OFF"
 thunar="OFF"
 tmux="OFF"
+flatpak="OFF"
 docker="OFF"
 dropbox="OFF"
 ags="OFF"
@@ -266,6 +267,7 @@ options_command+=(
     "bluetooth" "Do you want script to configure Bluetooth?" "OFF"
     "thunar" "Do you want Thunar file manager to be installed?" "OFF"
     "tmux" "Do you want Tmux to be installed?" "OFF"
+    "flatpak" "Do you want Flatpak to be installed?" "OFF"
     "docker" "Do you want Docker to be installed?" "OFF"
     "dropbox" "Do you want Dropbox to be installed?" "OFF"
     "ags" "Install AGS v1 for Desktop-Like Overview" "OFF"
@@ -438,6 +440,10 @@ for option in "${options[@]}"; do
         tmux)
             echo "${INFO} Installing ${SKY_BLUE}Tmux...${RESET}" | tee -a "$LOG"
             execute_script "tmux.sh"
+            ;;
+        flatpak)
+            echo "${INFO} Installing ${SKY_BLUE}Flatpak...${RESET}" | tee -a "$LOG"
+            execute_script "flatpak.sh"
             ;;
 		docker)
             echo "${INFO} Installing ${SKY_BLUE}Docker...${RESET}" | tee -a "$LOG"

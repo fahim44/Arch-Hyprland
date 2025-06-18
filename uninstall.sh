@@ -119,6 +119,7 @@ packages=(
     "thunar-archive-plugin" "Archive Plugin" "off"
     "thunar-volman" "Volume Management" "off"
     "tmux" "Terminal Multiplexer" "off"
+    "flatpak" "flatpak package manager" "off"
     "docker" "Container Management" "off"
     "dropbox" "Cloud Storage" "off"
     "tumbler" "Thumbnail Service" "off"

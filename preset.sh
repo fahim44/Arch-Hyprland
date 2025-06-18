@@ -21,6 +21,9 @@ thunar="ON"
 ###-Do you want to install Tmux?
 tmux="ON"
 
+###-Do you want to install Flatpak?
+flatpak="ON"
+
 ###-Do you want to install Docker?
 docker="ON"
 

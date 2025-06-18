@@ -21,7 +21,6 @@ Extra=(
   fd
   ffmpeg
   flameshot-git
-  fluffychat-bin
   freetube-bin
   fzf
   gimp
