@@ -1,5 +1,5 @@
 #!/bin/bash
-# tmux #
+# flatpak #
 
 flatpak_pkg=(
 	flatpak
@@ -33,7 +33,6 @@ printf "\n%s - Installing ${SKY_BLUE}flatpak packages${RESET} .... \n" "${NOTE}"
 for FLATPAK in "${flatpak_pkg[@]}"; do
 	install_package "$FLATPAK" "$LOG"
 done
-
 
 # Installing  flathub packages
 printf "\n%s - Installing ${SKY_BLUE}flatpak packages from flathub${RESET} .... \n" "${NOTE}"

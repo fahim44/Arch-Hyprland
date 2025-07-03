@@ -22,7 +22,7 @@ thunar="ON"
 tmux="ON"
 
 ###-Do you want to install Flatpak?
-flatpak="ON"
+flatpak="OFF"
 
 ###-Do you want to install Docker?
 docker="ON"
@@ -35,7 +35,7 @@ input_group="ON"
 
 ### Desktop overview Demo Link in README
 ### Desktop overview Demo Link in README
-### Install AGS (aylur's GTK shell) v1 for Desktop-Like Overview?" 
+### Install AGS (aylur's GTK shell) v1 for Desktop-Like Overview?"
 ags="ON"
 
 ###-Install & configure SDDM log-in Manager
@@ -49,7 +49,7 @@ xdph="ON"
 ### Shell extension. Bash alternative
 ###-Install zsh, oh-my-zsh
 zsh="ON"
-### add Pokemon color scripts to terminal 
+### add Pokemon color scripts to terminal
 pokemon="ON"
 
 ### This will install ASUSCTL & SUPERGFXCTL
