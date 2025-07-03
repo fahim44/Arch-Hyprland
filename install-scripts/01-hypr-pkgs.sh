@@ -44,6 +44,7 @@ Extra=(
   ripgrep
   rustup
   sdkman-bin
+  schildichat-desktop-bin
   telegram-desktop
   tldr
   topgrade
