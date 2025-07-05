@@ -45,6 +45,7 @@ Extra=(
   rustup
   sdkman-bin
   schildichat-desktop-bin
+  slack-desktop
   telegram-desktop
   tldr
   topgrade
