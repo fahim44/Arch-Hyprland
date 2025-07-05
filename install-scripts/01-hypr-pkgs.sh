@@ -27,6 +27,7 @@ Extra=(
   go
   httpie
   httptoolkit
+  intellij-idea-community-edition
   lazygit
   libreoffice-fresh
   librewolf-bin
@@ -56,6 +57,7 @@ Extra=(
   xournalpp
   yazi
   zip
+  zoom
   zoxide
 )
 
