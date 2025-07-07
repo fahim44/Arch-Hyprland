@@ -35,6 +35,7 @@ Extra=(
   khal
   nextcloud-client
   man
+  mitmproxy
   obs-studio
   obsidian
   openssh
