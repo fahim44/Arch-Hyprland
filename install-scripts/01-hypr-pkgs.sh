@@ -27,6 +27,7 @@ Extra=(
   go
   httpie
   httptoolkit
+  hyprsunset
   intellij-idea-community-edition
   lazygit
   libreoffice-fresh
