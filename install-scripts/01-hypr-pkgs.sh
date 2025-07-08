@@ -40,7 +40,6 @@ Extra=(
   obs-studio
   obsidian
   openssh
-  papers
   poppler
   python-pip
   resolvconf
