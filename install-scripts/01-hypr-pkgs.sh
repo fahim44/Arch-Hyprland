@@ -41,6 +41,7 @@ Extra=(
   obsidian
   openssh
   poppler
+  protonplus
   python-pip
   resolvconf
   ripgrep
