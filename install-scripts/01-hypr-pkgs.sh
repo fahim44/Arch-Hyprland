@@ -46,7 +46,6 @@ Extra=(
 	resolvconf
 	ripgrep
 	rustup
-	sdkman-bin
 	schildichat-desktop-bin
 	slack-desktop
 	telegram-desktop

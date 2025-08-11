@@ -21,6 +21,9 @@ thunar="ON"
 ###-Do you want to install Tmux?
 tmux="ON"
 
+###-Do you want to install SdkMan?
+sdkman="ON"
+
 ###-Do you want to install Flatpak?
 flatpak="OFF"
 
