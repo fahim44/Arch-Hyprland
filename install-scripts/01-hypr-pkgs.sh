@@ -45,7 +45,6 @@ Extra=(
 	python-pip
 	resolvconf
 	ripgrep
-	rustup
 	schildichat-desktop-bin
 	slack-desktop
 	telegram-desktop
