@@ -1,0 +1,24 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Fahim Salam Chowdhury
+	email = fahim@e.email
+[alias]
+	cl = clone --recurse-submodules -j8
+[rerere]
+	enabled = true
+[credential]
+	helper = store
+[core]
+	editor = nvim
+[http]
+	postBuffer = 524288000
+# define command which will be used when "nvim" is set as a merge tool
+[mergetool "nvim"]
+  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+# set "nvim" as tool for merging
+[merge]
+  tool = nvim

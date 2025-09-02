@@ -4,6 +4,7 @@
 # NOTE: These package check are only the essentials
 
 packages=(
+  alacritty
   cliphist
   kvantum
   rofi-wayland
@@ -14,7 +15,6 @@ packages=(
   waybar
   wl-clipboard
   wlogout
-  kitty
   hypridle
   hyprlock
   hyprland

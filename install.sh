@@ -126,6 +126,11 @@ gtk_themes="OFF"
 bluetooth="OFF"
 thunar="OFF"
 quickshell="OFF"
+tmux="OFF"
+sdkman="OFF"
+flatpak="OFF"
+docker="OFF"
+dropbox="OFF"
 sddm="OFF"
 sddm_theme="OFF"
 xdph="OFF"
@@ -263,6 +268,11 @@ options_command+=(
     "bluetooth" "Do you want script to configure Bluetooth?" "OFF"
     "thunar" "Do you want Thunar file manager to be installed?" "OFF"
     "quickshell" "Install quickshell for Desktop-Like Overview?" "OFF"
+    "tmux" "Do you want Tmux to be installed?" "OFF"
+    "sdkman" "Do you want sdkman to be installed?" "OFF"
+    "flatpak" "Do you want Flatpak to be installed?" "OFF"
+    "docker" "Do you want Docker to be installed?" "OFF"
+    "dropbox" "Do you want Dropbox to be installed?" "OFF"
     "xdph" "Install XDG-DESKTOP-PORTAL-HYPRLAND (for screen share)?" "OFF"
     "zsh" "Install zsh shell with Oh-My-Zsh?" "OFF"
     "pokemon" "Add Pokemon color scripts to your terminal?" "OFF"
@@ -353,6 +363,10 @@ fi
 sleep 1
 
 # Run the Hyprland related scripts
+echo "${INFO} Installing ${SKY_BLUE}Git packages...${RESET}" | tee -a "$LOG"
+sleep 1
+execute_script "git.sh"
+
 echo "${INFO} Installing ${SKY_BLUE}KooL Hyprland additional packages...${RESET}" | tee -a "$LOG"
 sleep 1
 execute_script "01-hypr-pkgs.sh"
@@ -364,6 +378,10 @@ execute_script "pipewire.sh"
 echo "${INFO} Installing ${SKY_BLUE}necessary fonts...${RESET}" | tee -a "$LOG"
 sleep 1
 execute_script "fonts.sh"
+
+echo "${INFO} Installing ${SKY_BLUE}necessary cursor theme...${RESET}" | tee -a "$LOG"
+sleep 1
+execute_script "numix-cursor-maia.sh"
 
 echo "${INFO} Installing ${SKY_BLUE}Hyprland...${RESET}"
 sleep 1
@@ -420,6 +438,26 @@ for option in "${options[@]}"; do
             echo "${INFO} Installing ${SKY_BLUE}Thunar file manager...${RESET}" | tee -a "$LOG"
             execute_script "thunar.sh"
             execute_script "thunar_default.sh"
+            ;;
+        tmux)
+            echo "${INFO} Installing ${SKY_BLUE}Tmux...${RESET}" | tee -a "$LOG"
+            execute_script "tmux.sh"
+            ;;
+        sdkman)
+            echo "${INFO} Installing ${SKY_BLUE}SdkMan...${RESET}" | tee -a "$LOG"
+            execute_script "sdkman.sh"
+            ;;
+        flatpak)
+            echo "${INFO} Installing ${SKY_BLUE}Flatpak...${RESET}" | tee -a "$LOG"
+            execute_script "flatpak.sh"
+            ;;
+		docker)
+            echo "${INFO} Installing ${SKY_BLUE}Docker...${RESET}" | tee -a "$LOG"
+            execute_script "docker.sh"
+            ;;
+		dropbox)
+            echo "${INFO} Installing ${SKY_BLUE}Dropbox...${RESET}" | tee -a "$LOG"
+            execute_script "dropbox.sh"
             ;;
         sddm_theme)
             echo "${INFO} Downloading & Installing ${SKY_BLUE}Additional SDDM theme...${RESET}" | tee -a "$LOG"

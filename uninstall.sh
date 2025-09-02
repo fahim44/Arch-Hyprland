@@ -84,6 +84,7 @@ remove_directories() {
 
 # Define the list of packages to choose from (with options_command tags)
 packages=(
+    "alacritty" "alacritty-terminal" "off"
     "btop" "resource monitor" "off"
     "brightnessctl" "brightnessctl" "off"
     "cava" "Cross-platform Audio Visualizer" "off"
@@ -118,6 +119,11 @@ packages=(
     "thunar" "File Manager" "off"
     "thunar-archive-plugin" "Archive Plugin" "off"
     "thunar-volman" "Volume Management" "off"
+    "tmux" "Terminal Multiplexer" "off"
+    "sdkman" "Java sdk manager" "off"
+    "flatpak" "Flatpak package manager" "off"
+    "docker" "Container Management" "off"
+    "dropbox" "Cloud Storage" "off"
     "tumbler" "Thumbnail Service" "off"
     "wallust" "color pallete generator" "off"
     "waybar" "wayland bar" "off"
@@ -135,6 +141,7 @@ packages=(
 
 # Define the list of directories to choose from (with options_command tags)
 directories=(
+    "alacritty" "alacritty terminal configuration" "off"
     "btop" "btop configuration" "off"
     "cava" "cava configuration" "off"
     "fastfetch" "fastfetch configuration" "off"
