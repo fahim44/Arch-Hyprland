@@ -24,6 +24,7 @@ Extra=(
 	freetube-bin
 	fzf
 	gimp
+	gnome-disk-utility
 	go
 	httpie
 	httptoolkit
