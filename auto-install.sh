@@ -43,7 +43,7 @@ if [ -d "$Distro_DIR" ]; then
     ./install.sh
 else
     echo "${MAGENTA}$Distro_DIR does not exist. Cloning the repository...${RESET}"
-    git clone --depth=1 "$Github_URL" "$Distro_DIR"
+    git clone --depth=1 --branch temp_upstream_main "$Github_URL" "$Distro_DIR"
     cd "$Distro_DIR"
     chmod +x install.sh
     ./install.sh
