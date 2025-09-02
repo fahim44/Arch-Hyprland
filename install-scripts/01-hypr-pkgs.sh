@@ -26,7 +26,7 @@ Extra=(
 	gimp
 	gnome-disk-utility
 	go
-	httpie
+	# httpie
 	httptoolkit
 	hyprsunset
 	intellij-idea-community-edition
