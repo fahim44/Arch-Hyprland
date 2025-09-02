@@ -32,6 +32,7 @@ Extra=(
 	lazygit
 	libreoffice-fresh
 	librewolf-bin
+	keepassxc
 	keypunch-git
 	khal
 	nextcloud-client
