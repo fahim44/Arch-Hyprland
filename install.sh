@@ -133,6 +133,7 @@ docker="OFF"
 dropbox="OFF"
 sddm="OFF"
 sddm_theme="OFF"
+sddm_theme_astronaut="OFF"
 xdph="OFF"
 zsh="OFF"
 pokemon="OFF"
@@ -259,6 +260,7 @@ if ! check_services_running; then
     options_command+=(
         "sddm" "Install & configure SDDM login manager?" "OFF"
         "sddm_theme" "Download & Install Additional SDDM theme?" "OFF"
+        "sddm_theme_astronaut" "Download & Install Additional SDDM Astronaut theme?" "OFF"
     )
 fi
 
@@ -462,6 +464,10 @@ for option in "${options[@]}"; do
         sddm_theme)
             echo "${INFO} Downloading & Installing ${SKY_BLUE}Additional SDDM theme...${RESET}" | tee -a "$LOG"
             execute_script "sddm_theme.sh"
+            ;;
+        sddm_theme_astronaut)
+            echo "${INFO} Downloading & Installing ${SKY_BLUE}Additional SDDM Astronaut theme...${RESET}" | tee -a "$LOG"
+			execute_script "sddm_theme_astronaut.sh"
             ;;
         zsh)
             echo "${INFO} Installing ${SKY_BLUE}zsh with Oh-My-Zsh...${RESET}" | tee -a "$LOG"
