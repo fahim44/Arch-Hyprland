@@ -58,6 +58,7 @@ Extra=(
 	ueberzugpp
 	vdirsyncer
 	wireguard-tools
+	wttrbar
 	xournalpp
 	yazi
 	zip
