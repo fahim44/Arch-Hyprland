@@ -16,6 +16,7 @@ Extra=(
 	bruno-bin
 	calibre
 	carapace-bin
+	composer
 	curl
 	dbeaver
 	fd
@@ -42,6 +43,7 @@ Extra=(
 	obs-studio
 	obsidian
 	openssh
+	php
 	poppler
 	protonplus
 	python-pip
