@@ -28,6 +28,7 @@ Extra=(
 	gnome-disk-utility
 	go
 	# httpie
+	helium-browser-bin
 	httptoolkit
 	hyprsunset
 	intellij-idea-community-edition
