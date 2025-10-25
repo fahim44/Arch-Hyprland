@@ -17,6 +17,7 @@ Extra=(
 	calibre
 	carapace-bin
 	composer
+	copyq
 	curl
 	dbeaver
 	fd
