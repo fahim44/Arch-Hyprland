@@ -20,6 +20,7 @@ Extra=(
 	copyq
 	curl
 	dbeaver
+	element-desktop
 	fd
 	ffmpeg
 	# flameshot-git
@@ -27,6 +28,7 @@ Extra=(
 	fzf
 	gimp
 	gnome-disk-utility
+	gnome-keyring
 	go
 	# httpie
 	helium-browser-bin
@@ -51,7 +53,7 @@ Extra=(
 	python-pip
 	resolvconf
 	ripgrep
-	schildichat-desktop-bin
+	# schildichat-desktop-bin
 	slack-desktop
 	telegram-desktop
 	tldr
