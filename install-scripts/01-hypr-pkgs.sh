@@ -38,6 +38,7 @@ Extra=(
 	lazygit
 	libreoffice-fresh
 	librewolf-bin
+	libsecret
 	keepassxc
 	keypunch-git
 	khal
@@ -54,6 +55,7 @@ Extra=(
 	resolvconf
 	ripgrep
 	# schildichat-desktop-bin
+	seahorse
 	slack-desktop
 	telegram-desktop
 	tldr
