@@ -1,11 +1,8 @@
 #!/bin/bash
-# tlp #
+# auto-cpufreq #
 
-tlp=(
-	tlp
-	tlp-rdw
-	smartmontools
-	tlpui
+cpu=(
+	auto-cpufreq
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
@@ -25,27 +22,18 @@ if ! source "$(dirname "$(readlink -f "$0")")/Global_functions.sh"; then
 fi
 
 # Set the name of the log file to include the current date and time
-LOG="Install-Logs/install-$(date +%d-%H%M%S)_tlp.log"
+LOG="Install-Logs/install-$(date +%d-%H%M%S)_auto-cpufreq.log"
 
 # tlp
-printf "${INFO} Installing ${SKY_BLUE}TLP${RESET} Packages...\n"
-for TLP in "${tlp[@]}"; do
-	install_package "$TLP" "$LOG"
+printf "${INFO} Installing ${SKY_BLUE}auto-cpufreq${RESET} Packages...\n"
+for CPU in "${cpu[@]}"; do
+	install_package "$CPU" "$LOG"
 done
 
 printf "\n%.0s" {1..1}
 
-printf "${INFO} Enabling ${SKY_BLUE}TLP Demon${RESET} ...\n"
-
+printf "${INFO} Enabling ${SKY_BLUE}auto-cpufreq Demon${RESET} ...\n"
 sudo systemctl mask power-profiles-daemon.service
-
-for drv in NetworkManager NetworkManager-dispatcher tlp; do
-	sudo systemctl enable ${drv}
-done
-
-printf "\n%.0s" {1..1}
-
-printf "${INFO} Starting ${SKY_BLUE}TLP${RESET} ...\n"
-sudo tlp start
+sudo systemctl enable --now auto-cpufreq
 
 printf "\n%.0s" {1..2}

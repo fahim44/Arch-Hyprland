@@ -130,6 +130,7 @@ sdkman="OFF"
 flatpak="OFF"
 docker="OFF"
 tlp="OFF"
+auto_cpufreq="OFF"
 dropbox="OFF"
 sddm="OFF"
 sddm_theme="OFF"
@@ -275,6 +276,7 @@ options_command+=(
 	"flatpak" "Do you want Flatpak to be installed?" "OFF"
 	"docker" "Do you want Docker to be installed?" "OFF"
 	"tlp" "Do you want TLP to be installed?" "OFF"
+	"auto_cpufreq" "Do you want auto_cpufreq to be installed?" "OFF"
 	"dropbox" "Do you want Dropbox to be installed?" "OFF"
 	"xdph" "Install XDG-DESKTOP-PORTAL-HYPRLAND (for screen share)?" "OFF"
 	"zsh" "Install zsh shell with Oh-My-Zsh?" "OFF"
@@ -461,6 +463,10 @@ for option in "${options[@]}"; do
 	tlp)
 		echo "${INFO} Installing ${SKY_BLUE}TLP...${RESET}" | tee -a "$LOG"
 		execute_script "tlp.sh"
+		;;
+	auto_cpufreq)
+		echo "${INFO} Installing ${SKY_BLUE}auto_cpufreq...${RESET}" | tee -a "$LOG"
+		execute_script "auto-cpufreq.sh"
 		;;
 	dropbox)
 		echo "${INFO} Installing ${SKY_BLUE}Dropbox...${RESET}" | tee -a "$LOG"
