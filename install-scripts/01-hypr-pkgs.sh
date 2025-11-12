@@ -16,6 +16,7 @@ Extra=(
 	bruno-bin
 	calibre
 	carapace-bin
+	cmake
 	composer
 	copyq
 	curl
