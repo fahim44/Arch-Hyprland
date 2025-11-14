@@ -40,6 +40,7 @@ Extra=(
 	libreoffice-fresh
 	librewolf-bin
 	libsecret
+	localsend-bin
 	keepassxc
 	keypunch-git
 	khal
