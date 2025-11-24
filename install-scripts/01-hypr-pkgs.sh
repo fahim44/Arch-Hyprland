@@ -41,6 +41,7 @@ Extra=(
 	librewolf-bin
 	libsecret
 	localsend-bin
+	luarocks
 	keepassxc
 	keypunch-git
 	khal
@@ -64,6 +65,7 @@ Extra=(
 	tldr
 	topgrade
 	transmission-gtk
+	tree-sitter-cli
 	ueberzugpp
 	vdirsyncer
 	wireguard-tools
