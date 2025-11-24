@@ -51,6 +51,7 @@ Extra=(
 	obsidian
 	openssh
 	php
+	phpactor
 	poppler
 	protonplus
 	python-pip
