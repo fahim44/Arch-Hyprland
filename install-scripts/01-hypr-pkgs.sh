@@ -31,6 +31,7 @@ Extra=(
 	gnome-disk-utility
 	gnome-keyring
 	go
+	gopls
 	# httpie
 	helium-browser-bin
 	httptoolkit
