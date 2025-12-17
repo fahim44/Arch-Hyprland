@@ -46,6 +46,7 @@ Extra=(
 	keepassxc
 	keypunch-git
 	khal
+	nvm
 	nextcloud-client
 	man
 	mitmproxy
