@@ -84,3 +84,6 @@ export PATH=$PATH:$HOME/Android/Sdk/platform-tools
 
 # java home
 export JAVA_HOME=$HOME/.sdkman/candidates/java/current
+
+# node version manager
+source /usr/share/nvm/init-nvm.sh
