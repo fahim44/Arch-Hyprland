@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💌 ** KooL's Arch - Hyprland Install Script ** 💌
+# 💌 **KooL's Arch - Hyprland Install Script** 💌
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/JaKooLit/Hyprland-Dots/main/assets/latte.png" width="400" />
@@ -41,14 +41,14 @@
 </p>
 
 <h3 align="center">
-	<img src="https://github.com/JaKooLit/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
-	KooL Hyprland-Dotfiles Showcase 
-	<img src="https://github.com/JaKooLit/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+ <img src="https://github.com/JaKooLit/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+ KooL Hyprland-Dotfiles Showcase
+ <img src="https://github.com/JaKooLit/Telegram-Animated-Emojis/blob/main/Activity/Sparkles.webp" alt="Sparkles" width="38" height="38" />
 </h3>
 
 <div align="center">
 
-https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
+<https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872>
 
 </div>
 
@@ -97,7 +97,7 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 - If you opted to install SDDM theme, here's the [`LINK`](https://github.com/JaKooLit/simple-sddm-2) which is a modified fork of [`LINK`](https://github.com/Keyitdev/sddm-astronaut-theme)
 - If you opted to install GTK Themes, Icons, here's the [`LINK`](https://github.com/JaKooLit/GTK-themes-icons). This also includes Bibata Modern Ice cursor.
 
-#### 👀 NVidia GPU Owners.
+#### 👀 NVidia GPU Owners
 
 - By default, nvidia-dkms will be installed. and only supports GTX 900 and newer. If required to install older driver, edit the nvidia.sh in install-scripts directory
 
@@ -115,7 +115,7 @@ https://github.com/user-attachments/assets/49bc12b2-abaf-45de-a21c-67aacd9bb872
 - NOTE: `curl` package is required before running this command
 
 ```bash
-sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/auto-install.sh)
+sh <(curl -L https://raw.githubusercontent.com/fahim44/Arch-Hyprland/main/auto-install.sh)
 ```
 
 ## ✨ to use this script
@@ -123,7 +123,7 @@ sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Arch-Hyprland/main/auto-
 - clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
 
 ```bash
-git clone --depth=1 https://github.com/JaKooLit/Arch-Hyprland.git ~/Arch-Hyprland
+git clone --depth=1 https://github.com/fahim44/Arch-Hyprland.git ~/Arch-Hyprland
 cd ~/Arch-Hyprland
 chmod +x install.sh
 ./install.sh
@@ -188,7 +188,9 @@ source ~/.zshrc
 
 > [!IMPORTANT]
 > DO NOT cd into install-scripts directory as script will most likely to fail
+
 #### 🛠️ Optional system monitor scripts (cross-distro compatible)
+
 - These installer helpers will set up user-level services and install required packages automatically.
 - Works on Fedora, Arch, and other distributions using standard tools.
 - Re-run any time from the repo root (do not `cd` into `install-scripts`).
@@ -206,9 +208,9 @@ source ~/.zshrc
   - Detects sensors (runs `sudo sensors-detect --auto` once)
   - Creates: `~/.config/hypr/scripts/temp-monitor.sh` and user service `temp-monitor.service`
   - Manage: `systemctl --user status|start|stop temp-monitor`
-> Packages above are installed by the respective installer scripts; no manual action is required. If you prefer package pre-install via the main package list, ensure `acpi`, `lm_sensors`, and `libnotify` are present in your setup.
+    > Packages above are installed by the respective installer scripts; no manual action is required. If you prefer package pre-install via the main package list, ensure `acpi`, `lm_sensors`, and `libnotify` are present in your setup.
 
-#### 🛣️ Roadmap:
+#### 🛣️ Roadmap
 
 - [ ] show a progress bar in downloading and compiling part when installing outside AUR or official repo
 
@@ -264,7 +266,7 @@ env = WLR_RENDERER_ALLOW_SOFTWARE,1
 - Want to contribute on KooL-Hyprland-Dots Click [`HERE`](https://github.com/JaKooLit/Hyprland-Dots/blob/main/CONTRIBUTING.md) for a guide how to contribute
 - Want to contribute on This Installer? Click [`HERE`](https://github.com/JaKooLit/Arch-Hyprland/blob/main/CONTRIBUTING.md) for a guide how to contribute
 
-#### 👍👍👍 Thanks and Credits!
+#### 👍👍👍 Thanks and Credits
 
 - [`Hyprland`](https://hyprland.org/) Of course to Hyprland and @vaxerski for this awesome Dynamic Tiling Manager.
 
