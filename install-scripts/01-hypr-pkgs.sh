@@ -63,6 +63,7 @@ Extra=(
 	# schildichat-desktop-bin
 	seahorse
 	slack-desktop
+	solanum
 	telegram-desktop
 	tldr
 	topgrade
