@@ -10,6 +10,7 @@
 Extra=(
 	7zip
 	android-studio
+	appflowy-bin
 	atuin
 	bat
 	betterbird-bin
