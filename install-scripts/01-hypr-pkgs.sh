@@ -76,6 +76,7 @@ Extra=(
 	wttrbar
 	xournalpp
 	yazi
+	zapzap
 	zip
 	zoom
 	zoxide
